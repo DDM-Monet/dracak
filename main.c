@@ -15,11 +15,13 @@ void stvor_hrdinu(struct hrdina* h) {
 }
 
 void zemri(struct hrdina *h);
+void chytit_kone(struct hrdina *h);
 
 int main(int argc, char** argv) {
     struct hrdina h;
     
     stvor_hrdinu(&h);
+    chytit_kone(&h);
     zemri(&h);
     printf("Hrdina %s, stats %d/%d/%d/%d/%d/%d\n", h.jmeno, h.HP, h.energie, h.XP, h.level, h.sila, h.stesti);
 }

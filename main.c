@@ -10,8 +10,8 @@ void stvor_hrdinu(struct hrdina* h) {
     h->energie=100;
     h->XP=0;
     h->level=0;
-    h->sila=10 + (random() % 40);
-    h->stesti=10 + (random() % 101);
+    h->sila=10 + (random() % 11);
+    h->stesti=10 + (random() % 11);
 }
 
 void zemri(struct hrdina *h);

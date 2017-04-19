@@ -10,7 +10,7 @@ void carodejnice(struct hrdina *h){
 	scanf("%d", &odpoved);
 	if(odpoved == 1){exit(0);}else{
 	if(odpoved == 2){printf("Podařilo se ti přeručkovat na druhou stranu.");}else{
-	if(odpoved == 3){printf("Nic jsi nenašel.")};
+	if(odpoved == 3){printf("Nic jsi nenašel. xD")};
 	}
 	}
 

@@ -17,7 +17,7 @@ void chytit_kone(struct hrdina *h) {
 		}else{
 			printf("Uspěšně jsi utekl,\n");
 			printf("ale jseš srab.\n");
-			printf("zkus to znovu!!!!!!!!!!!!!!!!!!!!!.\n");
+			printf("zkus to znovu!!!!!!!!!!!!!!!!!!!!!\n");
 		}
 	}
 }		
